@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/*Variable defined*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --gray: #462c7a;
+    --button-color: #9232b8;
+    --font: 'Press Start 2P', cursive;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: url("./assets/image/cursor-size.png"), auto !important;
+    box-sizing: border-box;
+}
+
+#background {
+    background: rgba(122, 151, 255, 0.1) url("src/assets/image/home2.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+}
