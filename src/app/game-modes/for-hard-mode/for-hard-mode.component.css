@@ -1,0 +1,57 @@
+#quesBG {
+    width: 500px !important;
+    height: 200px;    
+    margin: 0 auto;
+}
+
+.question-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    color: #b132af;
+    font-size: xx-large;
+}
+
+#play-game {
+    position: relative;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+#message-box{
+    height: 80px;
+    position: relative;
+}
+
+.colorRow {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border: 2px solid deepskyblue;
+}
+
+#congratulations-message {
+    position: absolute;
+    top: 55%;
+    left: 59%;
+    transform: translate(-60%, -30%);
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(215, 174, 107, 0.7);
+}
+
+
+
+
+
