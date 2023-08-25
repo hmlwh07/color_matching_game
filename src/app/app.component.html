@@ -5,7 +5,7 @@
   </audio>
   
   <div class="container d-flex justify-content-between set-bar mt-4">
-    <img class="setting" src="../../assets/image/sound-on.png" id="play" (click)="toggleSound(false)" [hidden]=" audio?.paused" alt="">
+    <img class="setting" src="../../assets/image/sound-on.png" id="play" (click)="toggleSound(false)" [hidden]="audio?.paused" alt="">
     <img class="setting" src="../../assets/image/sound-off.png" id="pause" (click)="toggleSound(true)" [hidden]="!audio?.paused" alt="">
     <img class="setting" src="../../assets/image/menu.png" id="play-home" data-bs-target="#exampleModalToggle"
       data-bs-toggle="modal" data-bs-dismiss="modal" alt="">
